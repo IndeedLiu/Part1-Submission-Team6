@@ -32,3 +32,12 @@ Our analysis will primarily use **regression analysis** and **causal inference**
 git clone https://github.com/IndeedLiu/Part1-Submission-Team4.git
 cd <your-repository-name>
 ```
+
+## Setup
+
+### Install Python dependencies
+
+If you plan to run the Python scripts (e.g., `03_heat.py`), install the required packages with:
+
+```bash
+pip install -r requirements.txt
