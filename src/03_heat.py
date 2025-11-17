@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # --- 1. Load the new dataset ---
-file_path = "data/processed/merged_2000_only.csv"
+file_path = "../data/processed/merged_2000_only.csv"
 try:
     df = pd.read_csv(file_path)
 except FileNotFoundError:
@@ -51,7 +51,7 @@ plt.yticks(rotation=0, fontsize=10)  # Keep y-axis labels horizontal
 plt.tight_layout()  # Adjust layout to prevent labels from being cut off
 
 # Save the plot
-output_filename = "results/correlation_heatmap_no_FIPS_PM25_CMR.png"
+output_filename = "../results/figures/02_correlation_heatmap_no_FIPS_PM25_CMR.png"
 plt.savefig(output_filename, dpi=300)
 
 print(f"Heatmap saved as '{output_filename}'")
