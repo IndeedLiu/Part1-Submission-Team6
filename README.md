@@ -12,7 +12,6 @@ This repository contains the group project for STOR 664, Fall 2025.
 Our objective is to **investigate the statistical relationship between fine particulate matter (PM2.5) air pollution and cardiovascular mortality rates (CMR)** at the U.S. county level.
 
 Our analysis will primarily use **regression analysis** and **causal inference** to model CMR as a function of PM2.5 levels, while controlling for a variety of socioeconomic and demographic covariates found in `County_RAW_variables.csv`. This approach is informed by existing literature in the field, such as the work by Wyatt et al. (2020). The primary dataset, `County_annual_PM25_CMR.csv`, provides the annual PM2.5 and CMR data per county.
-**[Final results and conclusions will be summarized here.]**
 
 ## Repository Structure
 
