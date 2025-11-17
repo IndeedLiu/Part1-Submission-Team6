@@ -25,7 +25,7 @@ Our analysis will primarily use **regression analysis** and **causal inference**
 
 ## Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 # Replace with your team's repository URL
