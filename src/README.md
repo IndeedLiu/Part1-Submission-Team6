@@ -1,6 +1,7 @@
 # Source Code Folder (`/src`)
 
 This folder contains all code used in the project.
+All scripts should be run from within the `src/` directory to ensure correct relative file paths.
 
 ```text
 src/
