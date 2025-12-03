@@ -1,0 +1,13 @@
+"variable","coefficient"
+"(Intercept)",250.876781355944
+"PM2.5",13.5138728420616
+"I(pmax(PM2.5 - 6, 0)^2)",0.542150654427702
+"I(pmax(PM2.5 - 7.5, 0)^2)",-2.52949874280303
+"civil_unemploy",0
+"median_HH_inc",-14.0012011331543
+"femaleHH_ns_pct",14.1934919093131
+"vacant_HHunit",0
+"owner_occ_pct",3.61144251544759
+"eduattain_HS",6.61935002183712
+"pctfam_pover",10.2269492458916
+"population",-1.10258836741128
