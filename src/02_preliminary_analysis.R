@@ -39,11 +39,11 @@ data2 <- data %>%
   mutate(
     x    = PM2.5,
     h6_2 = pmax(x - 6, 0)^2,
-    h8_2 = pmax(x - 8, 0)^2
+    h7_5_2 = pmax(x - 7.5, 0)^2
   )
 
 model_full <- lm(
-  CMR ~ x + h6_2 + h8_2 +
+  CMR ~ x + h6_2 + h7_5_2 +
     civil_unemploy +
     median_HH_inc +
     femaleHH_ns_pct +
@@ -61,7 +61,7 @@ newdat <- data.frame(
 ) %>%
   mutate(
     h6_2 = pmax(x - 6, 0)^2,
-    h8_2 = pmax(x - 8, 0)^2
+    h7_5_2 = pmax(x - 7.5, 0)^2
   )
 
 # Means of covariates
