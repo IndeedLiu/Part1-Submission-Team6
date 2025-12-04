@@ -6,5 +6,5 @@ This folder stores outputs generated from scripts in `/src` such as figures or t
 ```text
 results/
 ├── figures/ # Plots and visualizations
-├── tables/ # tables of AIC and BIC of different models
+├── tables/ # Tables and numerical results
 ```
