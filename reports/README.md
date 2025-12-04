@@ -4,6 +4,6 @@
 
 ```text
 report/
-├── 01_introduction_and_exploration.pdf # Question of interest, background, motivation, data sources, initial exploration
-├── 02_analysis_results_discussion.pdf  # Analysis plan, findings and figures, interpetation, limitations, conclusions
+├── project_664_part1.pdf # Question of interest, background, motivation, data sources, findings and figures, analysis plan
+├── project_664.pdf  # Full report
 ```
