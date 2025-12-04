@@ -31,7 +31,7 @@ This project is divided into two parts to ensure a structured analysis and repro
 
 - **Deadline:** December 3, 2025
 - **Focus:** Full statistical analysis (Regression, Lasso, Interaction models), model diagnostics, and interpretation of results.
-- **Status:** [In Progress/Submitted]
+- **Status:** [Submitted]
 
 ## Repository Structure
 
